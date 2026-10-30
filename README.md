@@ -4,8 +4,10 @@ Distribuição pública do EVDash para Android/BYD. Este repositório contém so
 
 [Baixar a versão mais recente](https://github.com/rrrabadan/evdash-releases/releases/latest)
 
-A primeira versão com atualizador é a **0.1.15-alpha**. Quem usa uma versão anterior precisa instalar esse APK uma vez; depois, o botão **Atualizar versão** do app consulta as novas releases públicas.
+A primeira versão com atualizador é a **0.1.15-alpha**. Quem usa uma versão anterior precisa instalar uma versão publicada 0.1.15 ou posterior uma vez; depois, o botão **Atualizar versão** do app consulta as novas releases públicas.
 
 O app consulta `https://github.com/rrrabadan/evdash-releases/releases/latest/download/latest.json`, confere o tamanho e o SHA-256 e exige a mesma assinatura Android da versão instalada. A instalação automática requer a autorização ADB local do EVDash e veículo parado em P. Após instalar, verifica o AutoStart BYD; se a verificação não puder ser concluída, orienta a conferir EVDash DESL na tela “Desativar AutoStart”.
+
+Os itens automáticos **Source code (zip/tar.gz)** do GitHub contêm somente os arquivos deste repositório público (README), sem os fontes do aplicativo.
 
 As versões alpha são distribuídas explicitamente pelo canal latest. A publicação dos binários não representa validação de funcionamento em movimento no veículo.
